@@ -7,7 +7,7 @@ import { AppService } from './app.service';
 // 다른 기능을 담당하는 module을 작성 시, 추가해 주어야 함.
 @Module({
   imports: [],
-  controllers: [],
-  providers: [],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}

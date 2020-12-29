@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework 를 이용한 API를 만들어 보며 NestJS 알아보기🐅
 
 ## Installation
 

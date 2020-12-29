@@ -3,6 +3,7 @@ import { CreateMovieDto } from './dtos/create-movie.dto';
 import { UpdateMovieDto } from './dtos/update-movie.dto';
 import {Movie} from './entities/movie.entity';
 
+// Injectable decorator로 module에서 provider property로 주었을 때 Dependency Injection이 일어날 수 있도록 한다
 @Injectable()
 export class MoviesService {
 	private movies : Movie[] = [];

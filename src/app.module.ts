@@ -1,13 +1,11 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-
+import { MoviesController } from './movies/movies.controller';
 
 // Nest가 Application create에 이요하는 root module.
 // 다른 기능을 담당하는 module을 작성 시, 추가해 주어야 함.
 @Module({
   imports: [],
-  controllers: [],
+  controllers: [MoviesController],
   providers: [],
 })
 export class AppModule {}
